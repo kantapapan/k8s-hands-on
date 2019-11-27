@@ -1,3 +1,5 @@
+#クラスタ実行/停止/状態確認
+---
 # status
 
     minikube status
@@ -56,4 +58,33 @@ kubectl:
 🏄  Done! kubectl is now configured to use "minikube"
 ```
 
+```
+[root@localhost ~]# minikube status
+host: Running
+kubelet: Running
+apiserver: Running
+kubectl: Correctly Configured: pointing to minikube-vm at 10.0.2.15
+```
+
+## addons list
+
+```
+[root@localhost ~]# minikube addons list
+- addon-manager: enabled
+- dashboard: disabled
+- default-storageclass: enabled
+- efk: disabled
+- freshpod: disabled
+- gvisor: disabled
+- heapster: enabled
+- ingress: enabled
+- logviewer: disabled
+- metrics-server: disabled
+- nvidia-driver-installer: disabled
+- nvidia-gpu-device-plugin: disabled
+- registry: disabled
+- registry-creds: disabled
+- storage-provisioner: enabled
+- storage-provisioner-gluster: disabled
+```
 
