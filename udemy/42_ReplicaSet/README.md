@@ -33,6 +33,7 @@ spec:
 
 2. リソース作成
 
+```
     [root@localhost 42_ReplicaSet]# kubectl apply -f replicaset.yml
     replicaset.apps/nginx configured
     [root@localhost 42_ReplicaSet]# kubectl get all
@@ -45,6 +46,7 @@ spec:
     
     NAME                 TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
     service/kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   61m
+```
 
 3. 手動スケールアウト
 
