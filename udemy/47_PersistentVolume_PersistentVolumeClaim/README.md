@@ -2,6 +2,11 @@
 1. PVとPVCを含むマニフェストファイル作成
 2. リソース作成
 
+
+## 参考
+minikube 永続化ボリューム
+https://qiita.com/ysakashita/items/924786aa24ef3bb864ef
+
 # 実行
 
 ホストのstorageを作る
