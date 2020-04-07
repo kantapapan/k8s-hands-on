@@ -88,3 +88,9 @@ kubectl: Correctly Configured: pointing to minikube-vm at 10.0.2.15
 - storage-provisioner-gluster: disabled
 ```
 
+## 追加のaddons をenableにしておく
+
+```
+    minikube addons enable heapster
+    minikube addons enable ingress
+```
